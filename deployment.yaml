@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: primuslearning
+  name: ikigai
   labels:
-    app: primuslearning
+    app: ikigai
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: primuslearning
+      app: ikigai
   template:
     metadata:
       labels:
-        app: primuslearning
+        app: ikigai
     spec:
       containers:
-        - name: primuslearning
-          image: 274127640471.dkr.ecr.us-east-2.amazonaws.com/primuslearning:1.1
+        - name: ikigai
+          image: 646390474080.dkr.ecr.eu-west-1.amazonaws.com/ikigai:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
