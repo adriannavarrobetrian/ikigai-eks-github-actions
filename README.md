@@ -1,2 +1,1 @@
-# ikigai-eks-github-actions
-ikigai-eks-github-actions
+# deploy-to-eks-using-github-actions
