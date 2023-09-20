@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: ikigai
-          image: 646390474080.dkr.ecr.eu-west-1.amazonaws.com/ikigai:1.1
+          image: 646390474080.dkr.ecr.eu-west-1.amazonaws.com/ikigai:1.3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
